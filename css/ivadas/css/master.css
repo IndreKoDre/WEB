@@ -1,0 +1,15 @@
+
+*{
+
+}
+.trecias{
+	background-color: purple;
+}
+#vienintelis{
+	word-spacing:10px; 
+}
+input[required] {
+	background-color:red;
+	height:30px;
+	width:100%;
+}
