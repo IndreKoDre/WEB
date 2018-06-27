@@ -1,0 +1,22 @@
+
+.box{
+	 position: relative;
+	 border: 1px solid black;
+	 min-height: 200px;
+	 padding: 5px;
+ }
+
+.collapsible-body{
+	 position: absolute;
+	 z-index: 9999;
+	 background-color: white;
+	 }
+img{
+	width: 100%;
+	height: 50px
+
+}
+.pavadinimas{
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+      <link rel="stylesheet"  href="css/mymodal.css">
+
+      <style type="">
+        .box{
+          margin-top: 20px;
+          padding:3px;
+          box-shadow: 0px opx 5px silver;
+        }
+        .box p img{
+          width:100%;
+        }
+      </style>
+      <meta charset="utf-8">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  </head>
+    <body>
+      <div class="mymodal">
+        <div class="mymodalbox"></div>        
+      </div>
+
+     <nav>
+        <div class="nav-wrapper green">
+          <a href="#!" class="brand-logo">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+
+    <p><h2>DESERTAI</h2> </p>    
+      <section class="row">
+
+        <div class="col s12 m4">
+          <div class="box">
+            <h4>Vasariškas sūrio pyragas</h4>
+            <p><img src="desertai/ciaubraske.jpg"></p>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger" href="ciaubraske.html">Receptas</a>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal modal-fixed-footer">
+              <div class="modal-content">
+                <h4>Modal Header</h4>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="box">
+            <h4>„Rafaelo“ saldainiai</h4>
+            <p><img src="desertai/rafaelo.jpg"></p>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger" href="rafaelo.html">Receptas</a>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal modal-fixed-footer">
+              <div class="modal-content">
+                <h4>Modal Header</h4>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+              </div>
+            </div> 
+          </div>
+          
+        <div class="col s12 m4">
+          <div class="box">
+            <h4>Sveikesni naminiai guminukai</h4>
+            <p><img src="desertai/guminukai.jpg"></p>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger" href="guminukai.html">Receptas</a>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal modal-fixed-footer">
+              <div class="modal-content">
+                <h4>Modal Header</h4>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+              </div>
+            </div>
+          </div>
+        </div>          
+
+      </section>
+
+  <footer class="page-footer green">
+    <div class="footer-copyright">
+      <div class="container">
+      © 2018 Informacijos šaltiniai www.worldrecipes.eu /
+      www.patiekalu-receptai.lt / www.15min.lt/maistas/naujienos/virtuve
+      <!-- <a class="grey-text text-lighten-4 right" href="#!">Daugiau nuorodų</a> -->
+      </div>
+    </div>
+  </footer>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      <script src="js/mymodal.js"></script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+
+        });
+      </script>
+    </body>
+  </html>
