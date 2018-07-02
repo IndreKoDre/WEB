@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+      <link rel="stylesheet"  href="css/mymodal.css">
+      <link rel="stylesheet" href="css/master.css">
+
+      <style type="">
+        .box{
+          margin-top: 20px;
+          padding:3px;
+          box-shadow: 0px opx 5px silver;
+        }
+        .box p img{
+          width:100%;
+        }
+        .desertas{
+          min-height:80px;
+        }
+      </style>
+      <meta charset="utf-8">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <nav>
+      <div class="nav-wrapper spalva">
+        <!-- <a href="#!" class="brand-logo">Logo</a> -->
+        <!-- <img src="pav/logo.png" alt=""> -->
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="../index.html">Pagrindinis puslapis</a></li>
+          <li><a href="../sriubos/sriubos.html">Sriubos</a></li>
+          <li><a href="../antiejipatiekalai/index.html">Antrieji patiekalai</a></li>
+          <li><a href="../salotos/salotos.html">Salotos</a></li>
+          <li><a href="../uzkandziai/uzkandziai.html">Užkandžiai</a></li>
+          <li><a href="../picos/picos.html">Picos</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="../index.html">Pagrindinis puslapis</a></li>
+      <li><a href="../sriubos/sriubos.html">Sriubos</a></li>
+      <li><a href="../antiejipatiekalai/index.html">Antrieji patiekalai</a></li>
+      <li><a href="../salotos/salotos.html">Salotos</a></li>
+      <li><a href="../uzkandziai/uzkandziai.html">Užkandžiai</a></li>
+      <li><a href="../picos/picos.html">Picos</a></li>
+    </ul>
+
+  </head>
+    <body>
+      <div class="mymodal">
+        <div class="mymodalbox"></div>        
+      </div>
+
+    <p><h2>DESERTAI</h2> </p>    
+      <section class="row">
+
+        <div class="col s12 m4">
+          <div class="box">
+            <div class="desertas"><h4>Vasariškas sūrio pyragas</h4></div>
+            <div><p><img src="desertai/ciaubraske.jpg"></p></div>            
+            
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger" href="ciaubraske.html">Receptas</a>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal modal-fixed-footer">
+              <div class="modal-content">
+                <h4>Modal Header</h4>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="box">
+            <div class="desertas"><h4>„Rafaelo“ saldainiai</h4></div>
+            <div><p><img src="desertai/rafaelo.jpg"></p></div>            
+            
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger" href="rafaelo.html">Receptas</a>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal modal-fixed-footer">
+              <div class="modal-content">
+                <h4>Modal Header</h4>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+              </div>
+            </div> 
+          </div>
+          </div>
+        <div class="col s12 m4">
+          <div class="box">
+            <div class="desertas"><h4>Sveikesni naminiai guminukai</h4></div>
+            <div><p><img src="desertai/guminukai.jpg"></p></div>
+            
+            
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn modal-trigger" href="guminukai.html">Receptas</a>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal modal-fixed-footer">
+              <div class="modal-content">
+                <h4>Modal Header</h4>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+              </div>
+            </div>
+          </div>
+        </div>          
+
+      </section>
+
+  <footer class="page-footer spalva">
+    <div class="footer-copyright">
+      <div class="container">
+      © 2018 Informacijos šaltiniai www.worldrecipes.eu /
+      www.patiekalu-receptai.lt / www.15min.lt/maistas/naujienos/virtuve
+      <!-- <a class="grey-text text-lighten-4 right" href="#!">Daugiau nuorodų</a> -->
+      </div>
+    </div>
+  </footer>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+      <script src="js/mymodal.js"></script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $('.sidenav').sidenav();
+
+        });
+      </script>
+    </body>
+  </html>
